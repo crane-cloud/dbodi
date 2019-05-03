@@ -7,3 +7,6 @@ A custom Graphical User Interface (GUI) layer that directly interfaces with the 
 * Deploy and manage containerised applications (deployment, scalability and cluster data replication). This will help clients to easily manage their applications using an intuitive interface with no need to master and interface with the command line interface of a UNIX-based system.
 
 * Manage external access to cluster services with possible load balancing definitions such as ingress and DNS. Services defined in the cluster require external access and this is challenging especially in bare metal environments. A combination of DNS, ingress and popular load balancing solutions will be further explored and findings used to inform the approach.
+
+* A web-based Command Line Interface (CLI) to interact with k8s API for user application specific information - For users proficient with UNIX-based terminals, controlled CLI access will be provided via the dashboard to support Kubernetes control commands restricted to the
+client namespace(s).
